@@ -1,0 +1,41 @@
+--------------Aula Rockseat---------------
+
+23/03
+1 - Precisa saber javascript (hoje está muito moderno, uma das mais)
+2 - baixar o node.js e instalar via package manager
+3 - criar pasta backend na pasta
+4 - dentro da sua pasta backend, rodar no cmd: npm init -y
+5 - instalar framework para enderecos (eg. www.meuproj.com/contato) no cmd: npm install express
+6 - criar no um arquivo no backend chamado index.js
+7 - no CMD usar o npx (instala algo externo): npx create-react-app frontend
+8 - Configurar o insomnia
+9 - instalar no CMD: npm install nodemon -D
+10 - mudar o package.json abaixo do script em start: "nodemon index.js"
+11 - para ficar rodando automatico, no terminal colocar: npm start
+12 - no CMD: npm install knex e npm install sqlite3
+13 - fazer conexão com o banco, criando no CMD: npx knex init
+14 - criar uma pasta chamada src, para colocar tudo que foi criado manual por nos dentro dela, exemplo (index.js)
+15 - no package.json trocar no start, no nodemon para nodemon src/index.js
+16 - na pasta src, criar um arquivo routes.js, colocar as const e copiar o app.post ate o final do index.js no routes.js
+17 - arrumar programação no routes e no src
+18 - criar uma nova pasta dentro do src chamada database
+19 - no knexfile.js em development trocar o filename para './src/database/db.sqlite
+20 - listar as entidades (os cadastros que tem dentro (eg. o musico, contratantes)
+21 - Pensar nas funcionalidades de cada entidade ( eg. login, cadastro, logout, cadastrar grupo, listar grupo, entrar em contato)
+22 - dentro da pasta database, criar uma pasta chamada migrations
+23 - no knex, criar em development criar o migrations em directory para a pasta migrations
+24 - no terminal: npx knex migrate:make nomedobanco
+25 - no knexfile colocar no development o erro que deu: useNullAsDefault: true,
+26 - criar dentro da migrations no export.up as tabelas
+27 - criar a tabela no terminal com npx knex migrate:latest
+28 - para criar mais entidades de cadastro fazer do passo 21 ate 27
+29 - criar dentro de database um arquivo: connection.js
+30 - deletar o banco db.sqlite e rodar no terminal: npx knex migrate:latest e conferir no npx knex migrate:status se todos os bancos foram criados
+31 - criar nova pasta no src: controllers
+32 - criar um controller para cada entidade (eg. OngController.js)
+33 - criar um controller chamado ProfileController.js para os casos do perfil da entidade
+34 - criar um SessionController.js para fazer o login da ong
+35 - Instalar o CORS (modulo de segurança) no terminal: npm install cors
+36 - Instalar o git-scm.com (ou verificar se ja esta instalado no cmd: git --version)
+
+
