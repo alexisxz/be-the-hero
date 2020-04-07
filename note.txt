@@ -37,5 +37,22 @@
 34 - criar um SessionController.js para fazer o login da ong
 35 - Instalar o CORS (modulo de segurança) no terminal: npm install cors
 36 - Instalar o git-scm.com (ou verificar se ja esta instalado no cmd: git --version)
-
-
+37 - Abrir o frontend e limpar excluindo: readme.md; App.css (src); App.test.js (src); index.css (src); logo.svg (src); serviceWorker.js (src) e setupTests.js (src)
+38 - no index.js remover, "import './index.css'; import * as serviceWorker from './serviceWorker'; import * as serviceWorker from './serviceWorker'; serviceWorker.unregister(); e o comentario de baixo
+39 - no App.js remover: import './App.css';import logo from './logo.svg' e todo HTML
+40 - arrumar App.js
+50 - na pasta public deletar: robots.txt; manifest.json; as duas logos png
+51 - arrumar o index.html
+52 - criar no src um novo componente= Header.js
+53 - dentro da pasta src criar: assets e criar: pages
+54 - dentro da pasta pages criar: Logon e dentro de Logon criar: index.js e styles.css
+55 - dentro da pasta src, excluir: Header.js
+56 - criar dentro do src: global.css
+57 - instalar no terminal os icones: npm install react-icons
+58 - configurar rotas, instalando: npm install react-router-dom
+59 - no src criar arquivo: routes.js
+60 - dentro de Pages criar: Register e criar dentro da Register: index.js e styles.css
+61 - dentro de Pages criar: Profile e criar dentro da Profile: index.js e styles.css
+62 - dentro de Pages criar: NewIncident e criar dentro dela:index.js e styles.css
+63 - conectar a aplicação com o backend instalando o cliente http no terminal: npm install axios
+64 - depois de instalar o axios, na pasta src criar pasta: services e dentro de services: api.js
